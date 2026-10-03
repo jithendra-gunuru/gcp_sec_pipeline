@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS
   adsh STRING,
   tag STRING,
   version STRING,
-  ddate STRING,
+  ddate DATE,
   qtrs INT64,
   uom STRING,
   segments STRING,
