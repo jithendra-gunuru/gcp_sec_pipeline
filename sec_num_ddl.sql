@@ -16,5 +16,5 @@ CREATE TABLE IF NOT EXISTS
   source_file STRING,
   ingested_at TIMESTAMP
 )
-PARTITION BY DATE(ingested_at)
+PARTITION BY ddate
 CLUSTER BY adsh, tag, version;
